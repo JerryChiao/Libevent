@@ -252,6 +252,7 @@ main(int c, char **v) {
 	}
 	fflush(stdout);
 	event_base_dispatch(event_base);
+	fprintf(stdio, "exit");
 	return 0;
 }
 
